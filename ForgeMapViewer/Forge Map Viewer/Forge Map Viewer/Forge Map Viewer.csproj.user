@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"C:\Users\Matt\AppData\LocalLow\MCC\LocalFiles\000901f3f01cce29\HaloReach\Map\0b6cd33c-d2de-487b-80bd-8a3faef65c1d.mvar"</StartArguments>
+  </PropertyGroup>
+</Project>

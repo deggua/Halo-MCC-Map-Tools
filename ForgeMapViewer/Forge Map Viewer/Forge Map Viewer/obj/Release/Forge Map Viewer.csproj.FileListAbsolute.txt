@@ -1,0 +1,10 @@
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\bin\Release\Forge Map Viewer.exe.config
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\bin\Release\Forge Map Viewer.exe
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\bin\Release\Forge Map Viewer.pdb
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge Map Viewer.csprojAssemblyReference.cache
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge_Map_Viewer.frmMain.resources
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge_Map_Viewer.Properties.Resources.resources
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge Map Viewer.csproj.GenerateResource.cache
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge Map Viewer.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge Map Viewer.exe
+C:\Users\Matt\Documents\GitHub\Halo-MCC-Map-Tools\ForgeMapViewer\Forge Map Viewer\Forge Map Viewer\obj\Release\Forge Map Viewer.pdb
