@@ -75,7 +75,6 @@ namespace Forge_Map_Viewer
             {
                 MessageBox.Show("Map file is corrupt or invalid.", "Error");
             }
-
         }
 
         private void BtnRevEnd_Click(object sender, EventArgs e)
