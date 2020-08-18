@@ -18,6 +18,7 @@ namespace Forge_Map_Viewer
         const int MapDescOffset    = 0x1C0;
         const int MapDescLen       = 0x130;
 
+        byte offset;
         byte[] fmap;
         byte[] mapTitleSection;
         byte[] mapDescSection;
@@ -54,15 +55,24 @@ namespace Forge_Map_Viewer
 
             if (HeaderValid(fmap))
             {
+                //find offset
+                if (fmap[MapTitleOffset] == 0)
+                {
+                    offset = 0x1;
+                }
+                else
+                {
+                    offset = 0x0;
+                }
                 //process map title string
-                mapTitleSection = fmap.Skip(MapTitleOffset).Take(MapTitleLen).ToArray();
+                mapTitleSection = fmap.Skip(MapTitleOffset + offset).Take(MapTitleLen).ToArray();
 
                 string mapTitle = string.Empty;
                 for (int ii = 0; ii < MapTitleLen; ii += 2)
                     mapTitle += BitConverter.ToChar(mapTitleSection, ii);
 
                 //process map description string
-                mapDescSection = fmap.Skip(MapDescOffset).Take(MapDescLen).ToArray();
+                mapDescSection = fmap.Skip(MapDescOffset + offset).Take(MapDescLen).ToArray();
 
                 string mapDesc = string.Empty;
                 for (int ii = 0; ii < MapDescLen; ii += 2)
